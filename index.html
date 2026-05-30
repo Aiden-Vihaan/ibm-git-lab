@@ -1,1 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+TravelSphere | Discover Extraordinary Destinations
+</title>
+
+<!-- Google Fonts -->
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<!-- Font Awesome -->
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<!-- CSS -->
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-earth-americas"></i>
+
+TravelSphere
+
+</div>
+
+<ul class="nav-links">
+
+<li>
+<a href="#home">
+Home
+</a>
+</li>
+
+<li>
+<a href="#destinations">
+Destinations
+</a>
+</li>
+
+<li>
+<a href="#testimonials">
+Reviews
+</a>
+</li>
+
+<li>
+<a href="#newsletter">
+Newsletter
+</a>
+</li>
+
+<li>
+<a href="#about">
+About
+</a>
+</li>
+
+<li>
+<a href="#contact">
+Contact
+</a>
+</li>
+
+</ul>
+
+<button id="themeBtn">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero"
+id="home">
+
+<div class="hero-content">
+
+<h1>
+
+Explore The World
+Like Never Before
+
+</h1>
+
+<p>
+
+Discover breathtaking beaches,
+historic landmarks, cultural wonders,
+and unforgettable travel experiences.
+
+</p>
+
+<div class="search-container">
+
+<input
+type="text"
+id="searchBox"
+placeholder="Search destinations...">
+
+<button>
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- STATS -->
+
+<section class="stats">
+
+<div class="stat-card">
+
+<h2 class="counter"
+data-target="10000">
+
+0
+
+</h2>
+
+<p>
+
+Destinations
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 class="counter"
+data-target="150">
+
+0
+
+</h2>
+
+<p>
+
+Countries
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 class="counter"
+data-target="500">
+
+0
+
+</h2>
+
+<p>
+
+Travel Experts
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2>
+
+4.9★
+
+</h2>
+
+<p>
+
+Average Rating
+
+</p>
+
+</div>
+
+</section>
+
+<!-- CATEGORIES -->
+
+<section class="categories">
+
+<h2>
+
+Browse Categories
+
+</h2>
+
+<div class="category-grid">
+
+<div class="category-card">
+
+<i class="fa-solid fa-umbrella-beach"></i>
+
+<h3>
+
+Beaches
+
+</h3>
+
+</div>
+
+<div class="category-card">
+
+<i class="fa-solid fa-gopuram"></i>
+
+<h3>
+
+Temples
+
+</h3>
+
+</div>
+
+<div class="category-card">
+
+<i class="fa-solid fa-earth-europe"></i>
+
+<h3>
+
+Countries
+
+</h3>
+
+</div>
+
+<div class="category-card">
+
+<i class="fa-solid fa-city"></i>
+
+<h3>
+
+Cities
+
+</h3>
+
+</div>
+
+</div>
+
+</section>
+<!-- DESTINATIONS -->
+
+<section
+class="destinations"
+id="destinations">
+
+<h2>
+
+Featured Destinations
+
+</h2>
+
+<div class="destination-grid">
+
+<!-- Maldives -->
+
+<div class="destination-card">
+
+<img
+src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1200"
+alt="Maldives">
+
+<div class="card-content">
+
+<h3>
+
+Maldives
+
+</h3>
+
+<p>
+
+Luxury tropical paradise
+with crystal-clear waters,
+white sandy beaches,
+and overwater villas.
+
+</p>
+
+<button
+class="fav-btn"
+data-name="Maldives">
+
+❤️ Favourite
+
+</button>
+
+<br><br>
+
+<button
+class="btn">
+
+View Details
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Germany -->
+
+<div class="destination-card">
+
+<img
+src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=1200"
+alt="Germany">
+
+<div class="card-content">
+
+<h3>
+
+Germany
+
+</h3>
+
+<p>
+
+Home to world-class engineering,
+historic castles,
+beautiful cities,
+and rich culture.
+
+</p>
+
+<button
+class="fav-btn"
+data-name="Germany">
+
+❤️ Favourite
+
+</button>
+
+<br><br>
+
+<button
+class="btn">
+
+View Details
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Japan -->
+
+<div class="destination-card">
+
+<img
+src="https://images.unsplash.com/photo-1492571350019-22de08371fd3?w=1200"
+alt="Japan">
+
+<div class="card-content">
+
+<h3>
+
+Japan
+
+</h3>
+
+<p>
+
+A unique blend of
+ancient traditions,
+advanced technology,
+and stunning landscapes.
+
+</p>
+
+<button
+class="fav-btn"
+data-name="Japan">
+
+❤️ Favourite
+
+</button>
+
+<br><br>
+
+<button
+class="btn">
+
+View Details
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Angkor Wat -->
+
+<div class="destination-card">
+
+<img
+src="https://images.unsplash.com/photo-1548013146-72479768bada?w=1200"
+alt="Angkor Wat">
+
+<div class="card-content">
+
+<h3>
+
+Angkor Wat
+
+</h3>
+
+<p>
+
+One of the world's
+greatest architectural
+and cultural wonders.
+
+</p>
+
+<button
+class="fav-btn"
+data-name="Angkor Wat">
+
+❤️ Favourite
+
+</button>
+
+<br><br>
+
+<button
+class="btn">
+
+View Details
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Bora Bora -->
+
+<div class="destination-card">
+
+<img
+src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200"
+alt="Bora Bora">
+
+<div class="card-content">
+
+<h3>
+
+Bora Bora
+
+</h3>
+
+<p>
+
+Known for its turquoise lagoon,
+luxury resorts,
+and spectacular scenery.
+
+</p>
+
+<button
+class="fav-btn"
+data-name="Bora Bora">
+
+❤️ Favourite
+
+</button>
+
+<br><br>
+
+<button
+class="btn">
+
+View Details
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Meenakshi Temple -->
+
+<div class="destination-card">
+
+<img
+src="https://images.unsplash.com/photo-1583391733981-8495e1b6f48c?w=1200"
+alt="Meenakshi Temple">
+
+<div class="card-content">
+
+<h3>
+
+Meenakshi Temple
+
+</h3>
+
+<p>
+
+An iconic temple famous
+for its colorful towers
+and rich heritage.
+
+</p>
+
+<button
+class="fav-btn"
+data-name="Meenakshi Temple">
+
+❤️ Favourite
+
+</button>
+
+<br><br>
+
+<button
+class="btn">
+
+View Details
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TESTIMONIALS -->
+
+<section
+class="testimonials"
+id="testimonials">
+
+<h2>
+
+What Travelers Say
+
+</h2>
+
+<div class="testimonial">
+
+<p>
+
+“TravelSphere helped me discover
+destinations I had never considered.
+The recommendations were excellent,
+and the experience felt premium.”
+
+</p>
+
+<h4>
+
+— Sarah Williams
+
+</h4>
+
+</div>
+
+</section>
+
+<!-- NEWSLETTER -->
+
+<section
+class="newsletter"
+id="newsletter">
+
+<h2>
+
+Get Travel Updates
+
+</h2>
+
+<p>
+
+Join thousands of travelers
+receiving destination recommendations,
+travel insights,
+and exclusive updates.
+
+</p>
+
+<form
+id="newsletterForm">
+
+<input
+type="email"
+id="newsletterEmail"
+placeholder="Enter your email">
+
+<button
+type="submit">
+
+Subscribe
+
+</button>
+
+</form>
+
+</section>
+<!-- ABOUT SECTION -->
+
+<section
+class="destinations"
+id="about">
+
+<h2>
+
+About TravelSphere
+
+</h2>
+
+<div class="testimonial">
+
+<p>
+
+TravelSphere is a modern travel discovery platform
+designed to help travelers explore the world's most
+extraordinary destinations.
+
+</p>
+
+<br>
+
+<p>
+
+From pristine beaches and historic landmarks
+to vibrant cities and cultural attractions,
+TravelSphere connects travelers with unforgettable
+experiences and trusted recommendations.
+
+</p>
+
+<br>
+
+<p>
+
+Founded with a passion for exploration,
+our goal is to simplify travel planning through
+interactive technology, curated insights,
+and a user-friendly experience.
+
+</p>
+
+<br>
+
+<p>
+
+Whether you're searching for your next holiday,
+cultural adventure, or dream destination,
+TravelSphere is your companion for discovering
+the beauty of the world.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- CONTACT SECTION -->
+
+<section
+class="newsletter"
+id="contact">
+
+<h2>
+
+Contact TravelSphere
+
+</h2>
+
+<p>
+
+We'd love to hear from fellow travelers,
+travel enthusiasts, and future partners.
+
+</p>
+
+<div class="testimonial">
+
+<h3>
+
+TravelSphere Headquarters
+
+</h3>
+
+<br>
+
+<p>
+
+📍 Marine Drive,
+Kochi,
+Kerala,
+India
+
+</p>
+
+<br>
+
+<p>
+
+📞 +91 98765 43210
+
+</p>
+
+<br>
+
+<p>
+
+✉ support@travelsphere.com
+
+</p>
+
+<br>
+
+<p>
+
+🌐 www.travelsphere.com
+
+</p>
+
+<br>
+
+<p>
+
+Business Hours
+
+</p>
+
+<p>
+
+Monday – Saturday
+
+</p>
+
+<p>
+
+9:00 AM – 6:00 PM
+
+</p>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<h3>
+
+TravelSphere
+
+</h3>
+
+<p>
+
+Discover. Explore. Experience.
+
+</p>
+
+<div class="social-icons">
+
+<a href="#">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-instagram"></i>
+
+</a>
+
+</div>
+
+<br>
+
+<p>
+
+© 2026 TravelSphere.
+All Rights Reserved.
+
+</p>
+
+</footer>
+
+<!-- SCRIPT -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
